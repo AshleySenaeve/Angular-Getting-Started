@@ -1,7 +1,13 @@
 <h3>Cart</h3>
 
+<p>
+  <a routerLink="/shipping"><b>Shipping Prices</b></a>
+</p>
+
 <div class="cart-item" *ngFor="let item of items">
   <span>{{ item.name }}</span>
   <span>{{ item.price | currency }}</span>
-  <button type="button" (click)="removeItem(item)"><em class="material-icons">delete</em>Remove</button>
+  <button type="button" (click)="removeItem(item)">
+    <em class="material-icons">delete</em>Remove
+  </button>
 </div>

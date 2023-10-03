@@ -3,7 +3,7 @@ div {
 }
 
 button {
-  background-color:orange;
+  background-color: orange;
   border-radius: 5px;
   color: #ffffff;
 }
@@ -12,4 +12,6 @@ button {
   color: #ffffff;
 }
 
-
+b {
+  color: #1976d2;
+}
