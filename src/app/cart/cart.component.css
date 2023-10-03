@@ -1,3 +1,15 @@
 div {
   background-color: #d0d0d0;
 }
+
+button {
+  background-color:orange;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.material-icons {
+  color: #ffffff;
+}
+
+

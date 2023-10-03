@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Product } from '../products';
 import { CartService } from '../cart.service';
 
 @Component({
@@ -10,4 +11,9 @@ export class CartComponent {
   items = this.cartService.getItems();
 
   constructor(private cartService: CartService) {}
+
+  removeItem(product: Product) {
+    this.cartService.removeItem(product);
+    window.alert('Your product has been deleted from the cart!');
+  }
 }
