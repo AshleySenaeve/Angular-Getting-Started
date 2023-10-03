@@ -1,0 +1,10 @@
+button {
+  background-color: #ffbb34;
+  border-radius: 5px;
+}
+
+button:hover,
+button:focus {
+  background-color: #37bf8d;
+  opacity: 100;
+}
